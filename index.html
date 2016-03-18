@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Escuela de perros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans|Montserrat:400,700">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h1>Escuela de Perros</h1>
+      <a href="#form">Añadir</a>
+      <a href="#search">Buscar por localidad</a>
+    </nav>
+    <section id="form">
+      <form action="">
+        <h1>Añadir</h1>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="nombre">
+
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza" name="raza">
+
+        <label for="localidad">Localidad:</label>
+        <select name="localidad" id="">
+          <option value="Usaquen">Usaquen</option>
+          <option value="Chapinero">Chapinero</option>
+          <option value="Santa Fe">Santa Fe</option>
+          <option value="San Cristobal">San Cristobal</option>
+          <option value="Usme">Usme</option>
+          <option value="Tunjuelito">Tunjuelito</option>
+          <option value="Bosa">Bosa</option>
+          <option value="Kennedy">Kennedy</option>
+          <option value="Fontibon">Fontibon</option>
+          <option value="Engativa">Engativa</option>
+          <option value="Suba">Suba</option>
+          <option value="Barrios Unidos">Barrios Unidos</option>
+          <option value="Teusquillo">Teusquillo</option>
+          <option value="Los Martires">Los Martires</option>
+          <option value="Antonio Nariño">Antonio Nariño</option>
+          <option value="Puente Aranada">Puente Aranada</option>
+          <option value="La Candelaria">La Candelaria</option>
+          <option value="Rafael Uribe Uribe">Rafael Uribe Uribe</option>
+          <option value="Ciudad Bolivar">Ciudad Bolivar</option>
+          <option value="Sumapaz">Sumapaz    </option>
+        </select>
+
+        <label for="dueno">Dueño: </label>
+        <input type="text" id="dueno" name="dueno">
+
+        <label for="cedula">Cedula:</label>
+        <input type="text" id="cedula" name="cedula">
+
+        <label for="tel">Telefono:</label>
+        <input type="text" id="tel" name="tel">
+
+        <label for="dia">Dia que asistirá:</label>
+        <input type="text" id="dia" name="dia">
+        <input type="submit" value="Submit" class="btn">
+      </form>
+    </section>
+    <section id="search">
+      <h1>Buscar por localidad</h1>
+      <form action="">
+      <select name="localidad" id="localidades">
+        <option value="Usaquen">Usaquen</option>
+        <option value="Chapinero">Chapinero</option>
+        <option value="Santa Fe">Santa Fe</option>
+        <option value="San Cristobal">San Cristobal</option>
+        <option value="Usme">Usme</option>
+        <option value="Tunjuelito">Tunjuelito</option>
+        <option value="Bosa">Bosa</option>
+        <option value="Kennedy">Kennedy</option>
+        <option value="Fontibon">Fontibon</option>
+        <option value="Engativa">Engativa</option>
+        <option value="Suba">Suba</option>
+        <option value="Barrios Unidos">Barrios Unidos</option>
+        <option value="Teusquillo">Teusquillo</option>
+        <option value="Los Martires">Los Martires</option>
+        <option value="Antonio Nariño">Antonio Nariño</option>
+        <option value="Puente Aranada">Puente Aranada</option>
+        <option value="La Candelaria">La Candelaria</option>
+        <option value="Rafael Uribe Uribe">Rafael Uribe Uribe</option>
+        <option value="Ciudad Bolivar">Ciudad Bolivar</option>
+        <option value="Sumapaz">Sumapaz    </option>
+      </select>
+      </form>
+      <div class="dogs">
+      </div>
+    </section>
+  </div>
+  <footer></footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
